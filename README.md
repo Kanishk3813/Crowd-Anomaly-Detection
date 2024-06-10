@@ -6,7 +6,7 @@ Abnormal crowd activity is monitored by computing crowd movement energy level.
 
 Social distace violation is simply calculating distance between individuals. Two modes are given to calculate distance from edge of individuals or center of individuals from camera at different scenario.
 
-Human detection is implemented using YOLOv4 via OpenCV built-in function. Tracking algorithm is implemented using Deep SORT, referencing the implementation by [Python Lessons](https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3).
+Human detection is implemented using YOLOv4 via OpenCV built-in function. Tracking algorithm is implemented using Deep SORT
 
 Current functions implemented includes:
 
@@ -28,15 +28,7 @@ YOLOv4-tiny is used for this documentation. You can use other YOLO variation for
 
 ### Files
 
-Clone this repo. Then, create a folder ```YOLOv4-tiny```, download and put in the weight and config file. The files can be found here, [yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) and [yolov4-tiny.cfg](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4-tiny.cfg). Or you can just run the scirpt below.
-
-```shell
-git clone https://github.com/lewjiayi/Crowd-Analysis.git
-cd Crowd-Analysis
-mkdir YOLOv4-tiny
-wget -P YOLOv4-tiny https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov4-tiny.weights
-wget -P YOLOv4-tiny https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg
-```
+Clone this repo. Then, create a folder ```YOLOv4-tiny```, download and put in the weight and config file. The files can be found here, [yolov4-tiny.weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) and [yolov4-tiny.cfg](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4-tiny.cfg).
 
 ### Requirements
 
@@ -51,8 +43,6 @@ pip3 install requirements.txt
 `config.py` contains all configurations for this program.
 
 Place the **video source** under `VIDEO_CONFIG.VIDEO_CAP` in `config.py`
-
-Refer to [User Manual](#user-manual) on how to use the `config.py` file.
 
 ## Running
 
