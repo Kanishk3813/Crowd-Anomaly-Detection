@@ -16,11 +16,6 @@ Current functions implemented includes:
 - Crowd movement tracks and flow
 - Crowd stationaries point (Heatmap)
 
----
-
-**I am happy to talk about the project if you have any question or discussion!**
-
----
 
 ## Building
 
