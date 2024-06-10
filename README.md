@@ -71,3 +71,5 @@ python3 movement_data_present.py
 `movement_data_present.py` will yield a summary plot of crowd count, violation count, restricted entry detection and abnormal activity over time(frames).
 
 ## Sample Output
+
+![Crowd Anomaly](https://github.com/Kanishk3813/Crowd-Anomaly-Detection/blob/main/processed_data/Crowd%20Anomaly.png)
